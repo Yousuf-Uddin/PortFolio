@@ -1,3 +1,14 @@
+import project1 from "../assets/Media/Projects/project1.png";
+import project2 from "../assets/Media/Projects/project2.png";
+import project3 from "../assets/Media/Projects/project3.png";
+import react from "../assets/Media/Skills/React.png";
+import tailwind from "../assets/Media/Skills/tailwindcss-mark.svg";
+import github from "../assets/Media/Skills/Github.png";
+import html from "../assets/Media/Skills/Html5.png";
+import css from "../assets/Media/Skills/CSS.png";
+import js from "../assets/Media/Skills/JS.png";
+import mongo from "../assets/Media/Skills/Mongodb.png";
+
 function Projects() {
   return (
     <>
@@ -12,7 +23,7 @@ function Projects() {
         >
           <div className="col-span-3 rounded-lg">
             <img
-              src="./src/assets/Media/Projects/project1.png"
+              src={project1}
               alt="project img"
               className="rounded-lg h-full"
             />
@@ -29,26 +40,10 @@ function Projects() {
               development and real-world problem-solving skills.
             </p>
             <div className="flex justify-center gap-2 m-2">
-              <img
-                src="./src/assets/Media/Skills/React.png"
-                alt="react.png"
-                className="w-12 h-12"
-              />
-              <img
-                src="./src/assets/Media/Skills/tailwindcss-mark.svg"
-                alt="Tailwind.png"
-                className="w-12 h-12"
-              />
-              <img
-                src="./src/assets/Media/Skills/Node.png"
-                alt="mongo.png"
-                className="w-12 h-12"
-              />
-              <img
-                src="./src/assets/Media/Skills/Github.png"
-                alt="github.png"
-                className="w-12 h-12"
-              />
+              <img src={react} alt="react.png" className="w-12 h-12" />
+              <img src={tailwind} alt="Tailwind.png" className="w-12 h-12" />
+              <img src={mongo} alt="mongo.png" className="w-12 h-12" />
+              <img src={github} alt="github.png" className="w-12 h-12" />
             </div>
 
             <a
@@ -86,21 +81,9 @@ function Projects() {
               forecasts, current conditions, and location-based updates.
             </p>
             <div className="flex justify-center gap-2 m-2">
-              <img
-                src="./src/assets/Media/Skills/React.png"
-                alt="react.png"
-                className="w-12 h-12"
-              />
-              <img
-                src="./src/assets/Media/Skills/tailwindcss-mark.svg"
-                alt="Tailwind.png"
-                className="w-12 h-12"
-              />
-              <img
-                src="./src/assets/Media/Skills/Github.png"
-                alt="github.png"
-                className="w-12 h-12"
-              />
+              <img src={react} alt="react.png" className="w-12 h-12" />
+              <img src={tailwind} alt="Tailwind.png" className="w-12 h-12" />
+              <img src={github} alt="github.png" className="w-12 h-12" />
             </div>
             <a
               href="https://yousuf-uddin.github.io/Weather-Forecast-App/"
@@ -121,7 +104,7 @@ function Projects() {
           </div>
           <div className="col-span-3 ">
             <img
-              src="./src/assets/Media/Projects/project2.png"
+              src={project2}
               alt="project img"
               className="rounded-lg h-full"
             />
@@ -134,7 +117,7 @@ function Projects() {
         >
           <div className="col-span-3 rounded-lg">
             <img
-              src="./src/assets/Media/Projects/project3.png"
+              src={project3}
               alt="project img"
               className="rounded-lg h-full "
             />
@@ -151,21 +134,9 @@ function Projects() {
             </p>
 
             <div className="flex justify-center gap-2 mb-2">
-              <img
-                src="./src/assets/Media/Skills/Html5.png"
-                alt="html.png"
-                className="w-12 h-12"
-              />
-              <img
-                src="./src/assets/Media/Skills/CSS.png"
-                alt="css.png"
-                className="w-12 h-12"
-              />
-              <img
-                src="./src/assets/Media/Skills/JS.png"
-                alt="js.png"
-                className="w-12 h-12"
-              />
+              <img src={html} alt="html.png" className="w-12 h-12" />
+              <img src={css} alt="css.png" className="w-12 h-12" />
+              <img src={js} alt="js.png" className="w-12 h-12" />
             </div>
 
             <a
