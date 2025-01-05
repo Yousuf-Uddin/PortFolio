@@ -19,7 +19,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <div className="flex font-[type1] text-lg  font-thin justify-between  p-4 items-center h-20 bg-inherit text-white">
+    <div className="flex font-[type1] text-lg w-[95vw] font-thin justify-between p-4 items-center h-20 bg-inherit text-white">
       <div className="flex gap-2 ">
         <p className="text-slate-400">Hyderabad, IND</p>
         <div className="time text-slate-200">
@@ -28,7 +28,7 @@ export default function Footer() {
           <span>{time.minute}</span>
         </div>
       </div>
-      <div>
+      <div className="hidden lg:block">
         <div className="">
           <div className="text-xl font-poppins text-slate-200 font-bold hover:text-orange-400 hover:cursor-pointer pl-14">
             yousuf.msoodi@gmail.com
