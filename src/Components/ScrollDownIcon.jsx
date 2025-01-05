@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import scrollDownAnimation from "../Media/scrolldown.json"; // Adjust the path as needed
+import scrollDownAnimation from "../assets/Media/scrolldown.json"; // Adjust the path as needed
 
 const ScrollDownIcon = () => {
   const style = {

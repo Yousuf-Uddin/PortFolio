@@ -1,13 +1,13 @@
 import insert from "./generateIDs";
 
-import ImageSkillsHTML5 from "/src//Media/Skills/HTML5.png";
-import ImageSkillsCSS3 from "/src/Media/Skills/CSS.png";
-import ImageSkillsJavaScript from "/src/Media/Skills/JS.png";
-import ImageSkillsReactJS from "/src/Media/Skills/React.png";
-import ImageSkillsNodeJS from "/src/Media/Skills/Node.png";
-import ImageSkillsExpressJS from "/src/Media/Skills/Express-js.png";
-import ImageSkillsMongoDB from "/src/Media/Skills/Mongodb.png";
-import ImageSkillsGithub from "/src/Media/Skills/Github.png";
+import ImageSkillsHTML5 from "/src/assets/Media/Skills/HTML5.png";
+import ImageSkillsCSS3 from "/src/assets/Media/Skills/CSS.png";
+import ImageSkillsJavaScript from "/src/assets/Media/Skills/JS.png";
+import ImageSkillsReactJS from "/src/assets/Media/Skills/React.png";
+import ImageSkillsNodeJS from "/src/assets/Media/Skills/Node.png";
+import ImageSkillsExpressJS from "/src/assets/Media/Skills/Express-js.png";
+import ImageSkillsMongoDB from "/src/assets/Media/Skills/Mongodb.png";
+import ImageSkillsGithub from "/src/assets/Media/Skills/Github.png";
 
 
 const skillsImages = [

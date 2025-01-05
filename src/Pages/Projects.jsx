@@ -12,7 +12,7 @@ function Projects() {
         >
           <div className="col-span-3 rounded-lg">
             <img
-              src="/src/media/Projects/project1.png"
+              src="./src/assets/Media/Projects/project1.png"
               alt="project img"
               className="rounded-lg h-full"
             />
@@ -30,22 +30,22 @@ function Projects() {
             </p>
             <div className="flex justify-center gap-2 m-2">
               <img
-                src="/src/Media/Skills/React.png"
+                src="./src/assets/Media/Skills/React.png"
                 alt="react.png"
                 className="w-12 h-12"
               />
               <img
-                src="/src/Media/Skills/tailwindcss-mark.svg"
+                src="./src/assets/Media/Skills/tailwindcss-mark.svg"
                 alt="Tailwind.png"
                 className="w-12 h-12"
               />
               <img
-                src="/src/Media/Skills/Node.png"
+                src="./src/assets/Media/Skills/Node.png"
                 alt="mongo.png"
                 className="w-12 h-12"
               />
               <img
-                src="/src/Media/Skills/Github.png"
+                src="./src/assets/Media/Skills/Github.png"
                 alt="github.png"
                 className="w-12 h-12"
               />
@@ -87,17 +87,17 @@ function Projects() {
             </p>
             <div className="flex justify-center gap-2 m-2">
               <img
-                src="/src/Media/Skills/React.png"
+                src="./src/assets/Media/Skills/React.png"
                 alt="react.png"
                 className="w-12 h-12"
               />
               <img
-                src="/src/Media/Skills/tailwindcss-mark.svg"
+                src="./src/assets/Media/Skills/tailwindcss-mark.svg"
                 alt="Tailwind.png"
                 className="w-12 h-12"
               />
               <img
-                src="/src/Media/Skills/Github.png"
+                src="./src/assets/Media/Skills/Github.png"
                 alt="github.png"
                 className="w-12 h-12"
               />
@@ -121,7 +121,7 @@ function Projects() {
           </div>
           <div className="col-span-3 ">
             <img
-              src="/src/media/Projects/project2.png"
+              src="./src/assets/Media/Projects/project2.png"
               alt="project img"
               className="rounded-lg h-full"
             />
@@ -134,7 +134,7 @@ function Projects() {
         >
           <div className="col-span-3 rounded-lg">
             <img
-              src="/src/media/Projects/project3.png"
+              src="./src/assets/Media/Projects/project3.png"
               alt="project img"
               className="rounded-lg h-full "
             />
@@ -152,17 +152,17 @@ function Projects() {
 
             <div className="flex justify-center gap-2 mb-2">
               <img
-                src="/src/Media/Skills/Html5.png"
+                src="./src/assets/Media/Skills/Html5.png"
                 alt="html.png"
                 className="w-12 h-12"
               />
               <img
-                src="/src/Media/Skills/CSS.png"
+                src="./src/assets/Media/Skills/CSS.png"
                 alt="css.png"
                 className="w-12 h-12"
               />
               <img
-                src="/src/Media/Skills/JS.png"
+                src="./src/assets/Media/Skills/JS.png"
                 alt="js.png"
                 className="w-12 h-12"
               />

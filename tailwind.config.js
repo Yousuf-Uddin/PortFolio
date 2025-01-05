@@ -11,11 +11,11 @@ export default {
         'roboto': ['Roboto', 'sans-serif'],
       },
       backgroundImage: {
-        'herobg': "url(./src/media/herobg.webp)",
-        'vherobg': "url(./src/media/herobg2.webp)",
-        'wave-top': "url('./src/Media/waveTop.svg')",
-        'wave-bottom': "url('./src/Media/waveBottom.svg')",
-        "me": "url('./src/Media/me.jpg')",
+        'herobg': "url(./src/assets/media/herobg.webp)",
+        'vherobg': "url(./src/assets/media/herobg2.webp)",
+        'wave-top': "url('./src/assets/Media/waveTop.svg')",
+        'wave-bottom': "url('./src/assets/Media/waveBottom.svg')",
+        "me": "url('./src/assets/Media/me.jpg')",
       }
     }
   },

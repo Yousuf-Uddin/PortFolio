@@ -14,7 +14,7 @@ function About() {
         Project section speak a lot about my experiences & skillsets.
       </p>
       <img
-        src="/src/Media/About.svg"
+        src="./src/assets/Media/About.svg"
         className="grayscale hover:filter-none transition-all duration-500 ease-in"
       />
       <Skills />

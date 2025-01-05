@@ -6,7 +6,7 @@ import ScrollDownIcon from "../Components/ScrollDownIcon";
 
 function LandingPage() {
   return (
-    <div className="HeroSection bg-vherobg bg-cover pb-16 w-[100%] h-[92vh] place-content-center md:bg-herobg ">
+    <div className="HeroSection bg-vherobg bg-cover  w-[100%] h-[92vh] place-content-center md:bg-herobg ">
       <motion.h1
         initial={{ maxHeight: 0 }}
         whileInView={{ maxHeight: 500 }}
@@ -29,7 +29,7 @@ function LandingPage() {
             <FaGithubAlt className="social-icon" />
           </div>
         </a>
-        <a href="/src/assets/Resume Online.pdf" target="_blank">
+        <a href="./src/assets/Yousuf-Resume.pdf" target="_blank">
           <div className="icon-container">
             <FaFilePdf className="social-icon" />
           </div>
@@ -41,12 +41,12 @@ function LandingPage() {
           </div>
         </a>
       </div>
-      <div className="avatar absolute -bottom-4 pr-2">
+      <div className="avatar absolute -bottom-6 pr-0">
         <abbr title="AI Generated Avatar of Yousuf">
           <div className="border-4 w-24 h-24 rounded-full justify-self-center bg-me bg-cover"></div>
         </abbr>
         <img
-          src="/src/media/stik.d3579f95de2c09f972a3aebce0a54691.svg"
+          src="./src/assets/Media/stik.d3579f95de2c09f972a3aebce0a54691.svg"
           alt="my pic"
         />
       </div>
