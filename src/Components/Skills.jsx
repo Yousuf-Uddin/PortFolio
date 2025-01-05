@@ -14,7 +14,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <section className="w-full relative my-4  py-5 rounded-lg px-5 text-center flex justify-center items-center backdrop-filter bg-clip-padding backdrop-blur-lg bg-opacity-5 border border-gray-700 bg-slate-300">
+    <section className="w-full relative my-6 p-4 lg:px-4 lg:py-6 rounded-lg text-center flex justify-between items-center backdrop-filter bg-clip-padding backdrop-blur-lg bg-opacity-5 border border-gray-700 bg-slate-300">
       {AllSkillsImages.map(
         ({
           id,
@@ -37,7 +37,7 @@ const Skills = () => {
               threshold={150}
               src={imageSrc}
               alt={imageAlt}
-              className="p-2 "
+              className="lg:px-4"
               draggable="false"
             />
           </div>
