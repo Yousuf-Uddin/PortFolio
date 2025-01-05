@@ -12,7 +12,7 @@ import mongo from "../assets/Media/Skills/Mongodb.png";
 function Projects() {
   return (
     <>
-      <div className="bg-wave-top w-full h-32 lg:h-64 2xl:h-96 bg-no-repeat bg-cover -mb-1"></div>
+      <div className="bg-wave-top w-full  h-32 lg:h-64 2xl:h-96 bg-no-repeat bg-cover "></div>
       <div className="bg-black">
         <h1 className="text-5xl font-bold text-gray-200 p-4">
           Featured Projects
@@ -113,26 +113,26 @@ function Projects() {
         {/* Project 3 */}
         <div
           id="project3"
-          className="grid  grid-flow-row lg:grid-flow-col justify-center m-4 gap-10 place-self-center w-3/4 "
+          className="grid my-8 grid-flow-row lg:grid-flow-col justify-center m-2 gap-3 place-self-center w-3/4 "
         >
-          <div className="col-span-3 rounded-lg">
+          <div className="col-span-10 rounded-lg pr-6">
             <img
               src={project3}
               alt="project img"
-              className="rounded-lg h-full "
+              className="rounded-lg h-full"
             />
           </div>
-          <div id="right" className="flex-col content-evenly col-span-2 ">
+          <div id="right" className="flex-col content-evenly col-span-6  ">
             <h2 className="font-[type1] text-xl font-semibold">
               Password Generator App
             </h2>
-            <p className="text-justify my-2 px-4 leading-snug">
+
+            <p className="text-justify my-2 leading-snug">
               Developed a Random Password Generator application using Html/css
               and JS. The project includes features for customizable password
               length, inclusion of special characters, numbers, and
               uppercase/lowercase letters.
             </p>
-
             <div className="flex justify-center gap-2 mb-2">
               <img src={html} alt="html.png" className="w-12 h-12" />
               <img src={css} alt="css.png" className="w-12 h-12" />
@@ -159,7 +159,7 @@ function Projects() {
         </div>
       </div>
 
-      <div className="bg-wave-bottom w-full h-32 lg:h-64 2xl:h-96 bg-no-repeat bg-cover -mt-5"></div>
+      <div className="bg-wave-bottom w-full h-32 lg:h-64 2xl:h-96 bg-no-repeat bg-cover -mt-8"></div>
     </>
   );
 }
