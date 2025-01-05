@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import "./App.css";
 import Lenis from "lenis";
 import LandingPage from "./Pages/LandingPage";
@@ -25,9 +26,11 @@ function App() {
     });
 
     //get scroll value
-    lenis.on("scroll", ({ scroll, limit, velocity, direction, progress }) => {
-      console.log({ scroll, limit, velocity, direction, progress });
-    });
+
+    lenis.on(
+      "scroll",
+      ({ scroll, limit, velocity, direction, progress }) => {}
+    );
 
     function raf(time) {
       lenis.raf(time);

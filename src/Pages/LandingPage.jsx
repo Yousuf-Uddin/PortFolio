@@ -1,5 +1,6 @@
 import { FaLinkedin, FaGithubAlt, FaFilePdf, FaEnvelope } from "react-icons/fa";
 import Mypic from "../assets/Media/stik.d3579f95de2c09f972a3aebce0a54691.svg";
+import resume from "../assets/Yousuf-Resume.pdf";
 
 import { motion } from "framer-motion";
 import AnimatedText from "../Components/AnimatedText";
@@ -30,7 +31,7 @@ function LandingPage() {
             <FaGithubAlt className="social-icon" />
           </div>
         </a>
-        <a href="./src/assets/Yousuf-Resume.pdf" target="_blank">
+        <a href={resume} target="_blank">
           <div className="icon-container">
             <FaFilePdf className="social-icon" />
           </div>
