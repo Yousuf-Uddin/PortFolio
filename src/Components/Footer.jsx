@@ -19,7 +19,7 @@ export default function Footer() {
   }, []);
 
   return (
-    <div className="flex font-[type1] text-lg w-[95vw] font-thin justify-between p-4 items-center h-20 bg-inherit text-white">
+    <div className="flex font-[type1] text-lg w-[100vw] font-thin justify-between p-4 items-center h-20 bg-inherit text-white">
       <div className="flex gap-2 ">
         <p className="text-slate-400">Hyderabad, IND</p>
         <div className="time text-slate-200">
