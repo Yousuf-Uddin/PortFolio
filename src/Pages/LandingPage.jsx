@@ -8,7 +8,7 @@ import ScrollDownIcon from "../Components/ScrollDownIcon";
 
 function LandingPage() {
   return (
-    <div className="HeroSection bg-vherobg bg-cover w-[100%] h-[96vh] place-content-center md:bg-herobg ">
+    <div className="HeroSection bg-vherobg bg-cover  w-[100%] h-[92vh] place-content-center md:bg-herobg ">
       <motion.h1
         initial={{ maxHeight: 0 }}
         whileInView={{ maxHeight: 500 }}
@@ -46,7 +46,7 @@ function LandingPage() {
       <div className="avatar absolute -bottom-6 pr-0">
         <abbr title="AI Generated Avatar of Yousuf">
           <div
-            className={`border-4 w-72 h-72 md:w-24 md:h-24 rounded-full justify-self-center bg-me bg-cover`}
+            className={`border-4 w-40 h-40 lg:w-24 lg:h-24 rounded-full justify-self-center bg-me bg-cover`}
           ></div>
         </abbr>
         <img src={Mypic} alt="my pic" />
