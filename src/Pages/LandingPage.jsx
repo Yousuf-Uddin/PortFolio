@@ -1,4 +1,5 @@
 import { FaLinkedin, FaGithubAlt, FaFilePdf, FaEnvelope } from "react-icons/fa";
+import Mypic from "../assets/Media/stik.d3579f95de2c09f972a3aebce0a54691.svg";
 
 import { motion } from "framer-motion";
 import AnimatedText from "../Components/AnimatedText";
@@ -45,10 +46,7 @@ function LandingPage() {
         <abbr title="AI Generated Avatar of Yousuf">
           <div className="border-4 w-24 h-24 rounded-full justify-self-center bg-me bg-cover"></div>
         </abbr>
-        <img
-          src="./src/assets/Media/stik.d3579f95de2c09f972a3aebce0a54691.svg"
-          alt="my pic"
-        />
+        <img src={Mypic} alt="my pic" />
       </div>
       <ScrollDownIcon />
     </div>

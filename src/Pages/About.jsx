@@ -1,4 +1,5 @@
 import Skills from "../Components/Skills";
+import aboutImg from "../assets/Media/About.svg";
 
 function About() {
   return (
@@ -14,7 +15,7 @@ function About() {
         Project section speak a lot about my experiences & skillsets.
       </p>
       <img
-        src="./src/assets/Media/About.svg"
+        src={aboutImg}
         className="grayscale hover:filter-none transition-all duration-500 ease-in"
       />
       <Skills />
