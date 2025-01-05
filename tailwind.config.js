@@ -11,10 +11,10 @@ export default {
         'roboto': ['Roboto', 'sans-serif'],
       },
       backgroundImage: {
-        'herobg': "url(./src/assets/Herobg.webp)",
-        'vherobg': "url(./src/assets/herobg2.webp)",
-        'wave-top': "url('./src/assets/waveTop.svg')",
-        'wave-bottom': "url('./src/assets/waveBottom.svg')",
+        'herobg': "url(./assets/Herobg.webp)",
+        'vherobg': "url(./assets/herobg2.webp)",
+        'wave-top': "url('./assets/waveTop.svg')",
+        'wave-bottom': "url('./assets/waveBottom.svg')",
         "me": "url('./assets/me.jpg')",
       }
     }
