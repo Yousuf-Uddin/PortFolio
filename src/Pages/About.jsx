@@ -3,7 +3,7 @@ import aboutImg from "../assets/Media/About.svg";
 
 function About() {
   return (
-    <div className="font-[type1] pt-28 pb-16">
+    <div className="font-[type1] lg:pt-28 lg:pb-16 py-8">
       <h1 className="font-poppins text-2xl font-bold">ABOUT</h1>
       <p className="w-10/12 md:w-7/12 m-auto py-6 text-lg text-gray-400 font-light">
         I am a certified{" "}
