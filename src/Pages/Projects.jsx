@@ -1,13 +1,13 @@
-import project1 from "/src/assets/Media/Projects/project1.png";
-import project2 from "/src/assets/Media/Projects/project2.png";
-import project3 from "/src/assets/Media/Projects/project3.png";
-import react from "/src/assets/Media/Skills/React.png";
-import tailwind from "/src/assets/Media/Skills/tailwindcss-mark.svg";
-import github from "/src/assets/Media/Skills/Github.png";
-import html from "/src/assets/Media/Skills/Html5.png";
-import css from "/src/assets/Media/Skills/CSS.png";
-import js from "/src/assets/Media/Skills/JS.png";
-import mongo from "/src/assets/Media/Skills/Mongodb.png";
+import project1 from "../assets/Media/Projects/project1.png";
+import project2 from "../assets/Media/Projects/project2.png";
+import project3 from "../assets/Media/Projects/project3.png";
+import react from "../assets/Media/Skills/React.png";
+import tailwind from "../assets/Media/Skills/tailwindcss-mark.svg";
+import github from "../assets/Media/Skills/Github.png";
+import html from "../assets/Media/Skills/Html5.png";
+import css from "../assets/Media/Skills/CSS.png";
+import js from "../assets/Media/Skills/JS.png";
+import mongo from "../assets/Media/Skills/Mongodb.png";
 
 function Projects() {
   return (
