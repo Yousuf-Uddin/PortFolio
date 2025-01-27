@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import "@/app.css";
+import "@/App.css";
 import Lenis from "lenis";
 import LandingPage from "@pages/LandingPage";
 import Projects from "@pages/Projects";
