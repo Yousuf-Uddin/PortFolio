@@ -11,18 +11,16 @@ export default defineConfig({
       "@projects": path.resolve("./src/assets"),
       "@comp": path.resolve("./src/Components"),
       "@pages": path.resolve("./src/Pages"),
+      "@aos": path.resolve("./src/aos/dist")
     }
   },
   base: "/PortFolio/",
   build: {
     rollupOptions: {
-      output: {
-        manualChunks(id) {
-          if (id.includes('node_modules')) {
-            return id.toString().split('node_modules/')[1].split('/')[0].toString();
-          }
-        }
-      }
+      external: [
+        "react", // ignore react stuff
+        "react-dom",
+      ],
     }
-  }
+  },
 })
