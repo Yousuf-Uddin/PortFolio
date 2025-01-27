@@ -11,7 +11,7 @@ export default defineConfig({
       "@projects": path.resolve("./src/assets"),
       "@comp": path.resolve("./src/Components"),
       "@pages": path.resolve("./src/Pages"),
-      "@aos": path.resolve("./src/aos/dist"),
+      "@aos": path.resolve("./src/aos"),
     }
   },
   base: "/PortFolio/",
