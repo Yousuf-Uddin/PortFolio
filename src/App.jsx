@@ -1,12 +1,12 @@
 /* eslint-disable no-unused-vars */
-import "./App.css";
+import "@/app.css";
 import Lenis from "lenis";
-import LandingPage from "./Pages/LandingPage";
-import Projects from "./Pages/Projects";
-import Footer from "./Components/Footer";
-import About from "./Pages/About";
+import LandingPage from "@pages/LandingPage";
+import Projects from "@pages/Projects";
+import Footer from "@comp/Footer";
+import About from "@pages/About";
 import { useIsomorphicLayoutEffect } from "framer-motion";
-import TitleAnimation from "./Components/TitleAnimation";
+import TitleAnimation from "@comp/TitleAnimation";
 function App() {
   console.log(
     "%c Made with ❤️ by Yousuf Uddin",

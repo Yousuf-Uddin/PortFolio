@@ -1,9 +1,18 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import path from 'path'
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  resolve: {
+    alias: {
+      "@": path.resolve("./src"),
+      "@projects": path.resolve("./src/assets"),
+      "@comp": path.resolve("./src/Components"),
+      "@pages": path.resolve("./src/Pages"),
+    }
+  },
   base: "/PortFolio/",
   build: {
     rollupOptions: {

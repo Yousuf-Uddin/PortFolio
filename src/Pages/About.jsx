@@ -1,5 +1,5 @@
-import Skills from "../Components/Skills";
-import aboutImg from "../assets/Media/About.svg";
+import Skills from "@comp/Skills";
+import aboutImg from "@projects/Media/About.svg";
 
 function About() {
   return (

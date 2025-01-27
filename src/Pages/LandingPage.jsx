@@ -1,10 +1,10 @@
 import { FaLinkedin, FaGithubAlt, FaFilePdf, FaEnvelope } from "react-icons/fa";
-import Mypic from "../assets/Media/stik.d3579f95de2c09f972a3aebce0a54691.svg";
-import resume from "../assets/Yousuf-Resume.pdf";
+import Mypic from "@projects/Media/stik.d3579f95de2c09f972a3aebce0a54691.svg";
+import resume from "@projects/Yousuf-Resume.pdf";
 
 import { motion } from "framer-motion";
-import AnimatedText from "../Components/AnimatedText";
-import ScrollDownIcon from "../Components/ScrollDownIcon";
+import AnimatedText from "@comp/AnimatedText";
+import ScrollDownIcon from "@comp/ScrollDownIcon";
 
 function LandingPage() {
   return (
