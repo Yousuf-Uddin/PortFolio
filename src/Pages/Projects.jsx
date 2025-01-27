@@ -4,7 +4,7 @@ import project3 from "@projects/Media/Projects/project3.png";
 import react from "@projects/Media/Skills/React.png";
 import tailwind from "@projects/Media/Skills/tailwindcss-mark.svg";
 import github from "@projects/Media/Skills/Github.png";
-import html from "@projects/Media/Skills/Html5.png";
+import html from "@projects/Media/Skills/HTML5.png";
 import css from "@projects/Media/Skills/CSS.png";
 import js from "@projects/Media/Skills/JS.png";
 import mongo from "@projects/Media/Skills/Mongodb.png";
