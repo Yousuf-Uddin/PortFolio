@@ -8,12 +8,12 @@ import ScrollDownIcon from "../Components/ScrollDownIcon";
 
 function LandingPage() {
   return (
-    <div className="HeroSection bg-vherobg bg-cover w-[100%] h-[95vh] lg:h-[92vh] place-content-center md:bg-herobg ">
+    <div className="HeroSection bg-vherobg bg-cover bg-center w-[100%] h-[95vh] lg:h-[99vh] place-content-center md:bg-herobg lg:bg-no-repeat lg:bg-contain">
       <motion.h1
         initial={{ maxHeight: 0 }}
         whileInView={{ maxHeight: 500 }}
         transition={{ duration: 2.8 }}
-        className=" overflow-hidden mt-3 text-[3rem] md:text-[4rem] leading-tight text-white"
+        className=" overflow-hidden mt-0 text-[3rem] md:text-[4rem] leading-tight text-white"
       >
         <AnimatedText text={"YousufUddin"} />
       </motion.h1>
@@ -43,7 +43,7 @@ function LandingPage() {
           </div>
         </a>
       </div>
-      <div className="avatar absolute -bottom-2 lg:-bottom-6 pt-10 ">
+      <div className="avatar absolute -bottom-2 lg:-bottom-20 py-10 ">
         <abbr title="AI Generated Avatar of Yousuf">
           <div
             className={`border-4 w-40 h-40 lg:w-24 lg:h-24 rounded-full justify-self-center bg-me bg-cover`}
