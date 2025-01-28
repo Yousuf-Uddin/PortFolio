@@ -151,7 +151,7 @@ function Projects() {
               href="https://github.com/Yousuf-Uddin/Password-Generator_React"
               target="_blank"
             >
-              <button className="bg-white text-black hover:bg-slate-700 border-none hover:text-white mx-4 mt-0">
+              <button className="bg-white text-black hover:bg-slate-700 border-none hover:text-white lg:mx-4 mx-2">
                 Github Repo
               </button>
             </a>
