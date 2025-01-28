@@ -17,10 +17,12 @@ export default defineConfig({
   base: "/PortFolio/",
   build: {
     rollupOptions: {
-      external: [
-        "react", // ignore react stuff
-        "react-dom",
-      ],
-    }
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            return id.toString().split('node_modules/')[1].split('/')[0].toString();
+          }
+        }
+      }
   },
 })
