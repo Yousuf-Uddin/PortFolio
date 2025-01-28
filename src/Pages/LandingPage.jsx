@@ -43,7 +43,7 @@ function LandingPage() {
           </div>
         </a>
       </div>
-      <div className="avatar absolute -bottom-2 lg:-bottom-10 pt-10 ">
+      <div className="avatar absolute -bottom-4 lg:-bottom-10 pt-10 ">
         <abbr title="AI Generated Avatar of Yousuf">
           <div
             className={`border-4 w-40 h-40 lg:w-24 lg:h-24 rounded-full justify-self-center bg-me bg-cover`}
