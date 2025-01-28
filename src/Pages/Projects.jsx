@@ -1,13 +1,13 @@
-import project1 from "@projects/Media/Projects/project1.png";
-import project2 from "@projects/Media/Projects/project2.png";
-import project3 from "@projects/Media/Projects/project3.png";
-import react from "@projects/Media/Skills/React.png";
-import tailwind from "@projects/Media/Skills/tailwindcss-mark.svg";
-import github from "@projects/Media/Skills/Github.png";
-import html from "@projects/Media/Skills/HTML5.png";
-import css from "@projects/Media/Skills/CSS.png";
-import js from "@projects/Media/Skills/JS.png";
-import mongo from "@projects/Media/Skills/Mongodb.png";
+import project1 from "../assets/Media/Projects/project1.png";
+import project2 from "../assets/Media/Projects/project2.png";
+import project3 from "../assets/Media/Projects/project3.png";
+import react from "../assets/Media/Skills/React.png";
+import tailwind from "../assets/Media/Skills/tailwindcss-mark.svg";
+import github from "../assets/Media/Skills/Github.png";
+import html from "../assets/Media/Skills/Html5.png";
+import css from "../assets/Media/Skills/CSS.png";
+import js from "../assets/Media/Skills/JS.png";
+import mongo from "../assets/Media/Skills/Mongodb.png";
 
 function Projects() {
   return (
@@ -151,7 +151,7 @@ function Projects() {
               href="https://github.com/Yousuf-Uddin/Password-Generator_React"
               target="_blank"
             >
-              <button className="bg-white text-black hover:bg-slate-700 border-none hover:text-white lg:mx-4 mx-2">
+              <button className="bg-white text-black hover:bg-slate-700 border-none hover:text-white mx-4 mt-0">
                 Github Repo
               </button>
             </a>
