@@ -41,13 +41,13 @@ function App() {
   }, []);
 
   return (
-    <>
+    <div className="bg-slate-950">
       <TitleAnimation />
       <LandingPage />
       <About />
       <Projects />
       <Footer />
-    </>
+    </div>
   );
 }
 
