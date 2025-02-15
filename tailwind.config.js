@@ -11,6 +11,7 @@ export default {
         'roboto': ['Roboto', 'sans-serif'],
       },
       backgroundImage: {
+        'herobg': "url('./assets/heroBg1.webp')",
         'vherobg': "url('./assets/herobg2.webp')",
         'wave-top': "url('./assets/waveTop.svg')",
         'wave-bottom': "url('./assets/waveBottom.svg')",

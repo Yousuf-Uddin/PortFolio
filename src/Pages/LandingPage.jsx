@@ -7,7 +7,7 @@ import ScrollDownIcon from "../Components/ScrollDownIcon";
 
 function LandingPage() {
   return (
-    <div className="HeroSection bg-vherobg bg-cover bg-center w-[100%] h-[95vh] lg:h-[95vh] place-content-center lg:bg-no-repeat lg:bg-contain">
+    <div className="HeroSection bg-vherobg bg-cover bg-center w-[100%] h-[95vh] lg:h-[95vh] place-content-center lg:bg-herobg lg:bg-no-repeat lg:bg-contain">
       <motion.h1
         initial={{ maxHeight: 0 }}
         whileInView={{ maxHeight: 500 }}
