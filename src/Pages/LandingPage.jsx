@@ -17,7 +17,7 @@ function LandingPage() {
         <AnimatedText text={"YousufUddin"} />
       </motion.h1>
       <div className="flex justify-center items-center gap-2 ">
-        <p className="text-5xl font-[type1] inline">Web Developer</p>
+        <p className="text-5xl font-[type1] inline text-white">Web Developer</p>
       </div>
       <div className="flex justify-center gap-4 my-4">
         <a href="http://www.linkedin.com/in/yousuffuddin" target="_blank">
