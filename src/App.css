@@ -54,6 +54,10 @@
   color: #888;
 }
 
+.HeroSection {
+  background-image: url("./assets/heroBg1.webp");
+}
+
 
 .flash {
     animation: blinker 1s step-start infinite

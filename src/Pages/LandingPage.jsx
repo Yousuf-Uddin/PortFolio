@@ -1,14 +1,13 @@
 import { FaLinkedin, FaGithubAlt, FaFilePdf, FaEnvelope } from "react-icons/fa";
 import Mypic from "../assets/Media/stik.d3579f95de2c09f972a3aebce0a54691.svg";
 import resume from "../assets/Yousuf-Resume.pdf";
-
 import { motion } from "framer-motion";
 import AnimatedText from "../Components/AnimatedText";
 import ScrollDownIcon from "../Components/ScrollDownIcon";
 
 function LandingPage() {
   return (
-    <div className="HeroSection bg-vherobg bg-cover bg-center w-[100%] h-[95vh] lg:h-[95vh] place-content-center md:bg-herobg lg:bg-no-repeat lg:bg-contain">
+    <div className="HeroSection bg-vherobg bg-cover bg-center w-[100%] h-[95vh] lg:h-[95vh] place-content-center lg:bg-no-repeat lg:bg-contain">
       <motion.h1
         initial={{ maxHeight: 0 }}
         whileInView={{ maxHeight: 500 }}
