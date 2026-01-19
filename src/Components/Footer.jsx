@@ -31,7 +31,7 @@ export default function Footer() {
       <div>
         <div className="hidden lg:block">
           <div className="text-xl font-poppins text-slate-200 font-bold hover:text-orange-400 hover:cursor-pointer pl-14">
-            yousuf.msoodi@gmail.com
+            yousufuddin.dev@gmail.com
           </div>
         </div>
       </div>
