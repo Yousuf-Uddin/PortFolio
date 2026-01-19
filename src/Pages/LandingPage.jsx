@@ -36,7 +36,7 @@ function LandingPage() {
           </div>
         </a>
 
-        <a href="mailto:yousuf.msoodi@gmail.com" target="_blank">
+        <a href="mailto:yousufuddin.dev@gmail.com" target="_blank">
           <div className="icon-container">
             <FaEnvelope className="social-icon" />
           </div>
